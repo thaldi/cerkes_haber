@@ -13,3 +13,20 @@ C:\Users\YSU\Desktop\ysu workspace\cerkes_haber\cerkes_haber\cerkes_haber\obj\De
 C:\Users\YSU\Desktop\ysu workspace\cerkes_haber\cerkes_haber\cerkes_haber\obj\Debug\cerkes_haber.pdb
 C:\Users\YSU\Desktop\ysu workspace\cerkes_haber\cerkes_haber\cerkes_haber\obj\Debug\cerkes_haber.dll.mdb
 C:\Users\YSU\Desktop\ysu workspace\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\cerkes_haber.dll.mdb
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\cerkes_haber.dll
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\cerkes_haber.pdb
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\ImageCircle.Forms.Plugin.Abstractions.dll
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\ImageCircle.Forms.Plugin.Abstractions.pdb
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\ImageCircle.Forms.Plugin.Abstractions.xml
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\obj\Debug\cerkes_haber.csprojResolveAssemblyReference.cache
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\obj\Debug\cerkes_haber.dll
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\obj\Debug\cerkes_haber.pdb
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\obj\Debug\CreatePostPage.xaml.g.cs
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\obj\Debug\MainPageAndroid.xaml.g.cs
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\obj\Debug\cerkes_haber.dll.mdb
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\cerkes_haber.dll.mdb

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cerkes_haber.pages.MainPageAndroid">
+
+
+  <Grid VerticalOptions="Fill" HorizontalOptions="Fill" BackgroundColor="White">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="50"/>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+
+    <Grid Grid.Row="0" VerticalOptions="Fill" HorizontalOptions="Fill" BackgroundColor="#F45646">
+      <Label Text="Çerkes Haber" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30" TextColor="White" FontFamily="Comic Sans MS"/>
+    </Grid>
+
+
+    <Grid Grid.Row="1" BackgroundColor="#F6F9FA" VerticalOptions="Fill" HorizontalOptions="Fill">
+      <ListView x:Name="AllPosts">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+              </Grid.RowDefinitions>
+
+              <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                  <ColumnDefinition Width="5*"/>
+                  <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout WidthRequest="20" HeightRequest="20" BackgroundColor="Green" Grid.Column="0"/>
+                <Label Text="{Binding Title}" VerticalOptions="StartAndExpand" TextColor="Black" FontSize="30"/>
+              </Grid>
+
+              <Label Grid.Row="1" Text="{Binding Time}" TextColor="#2364BE"/>
+
+              <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                  <ColumnDefinition Width="*"/>
+                  <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Text="{Binding Place}" />
+                <Label Grid.Column="1" Text="{Binding City}" />
+              </Grid>
+
+            </Grid>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </Grid>
+  </Grid>
+
+
+</ContentPage>

@@ -20,6 +20,8 @@ namespace cerkes_haber.model
         public Uri ImageUrl { get; set; }
         public Color Color { get; set; }
         public string Flag { get; set; }
+        public Color color { get; set; }
+
 
         public event PropertyChangedEventHandler PropertyChanged;
         private void OnPropertyChanged(string name)

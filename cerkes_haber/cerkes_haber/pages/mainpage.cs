@@ -54,7 +54,6 @@ namespace cerkes_haber.pages
             titleBox.Children.Add(title);
             baseLayout.Children.Add(titleBox);
 
-
             nickBox = new Entry();
             passwordBox = new Entry()
             {
@@ -85,8 +84,8 @@ namespace cerkes_haber.pages
 
             registerBtn.Clicked += (o, e) =>
             {
-                // Navigation.PushModalAsync(new profilepage());
-                Navigation.PushModalAsync(new RegisterUserPage());
+                Navigation.PushModalAsync(new profilepage());
+                //Navigation.PushModalAsync(new RegisterUserPage());
             };
 
             loginBtn.Clicked += (o, e) =>

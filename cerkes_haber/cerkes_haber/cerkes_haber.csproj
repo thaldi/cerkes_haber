@@ -44,7 +44,13 @@
     <Compile Include="model\EventItem.cs" />
     <Compile Include="model\EventTemplate.cs" />
     <Compile Include="model\Users.cs" />
+    <Compile Include="pages\CreatePostPage.xaml.cs">
+      <DependentUpon>CreatePostPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="pages\mainpage.cs" />
+    <Compile Include="pages\MainPageAndroid.xaml.cs">
+      <DependentUpon>MainPageAndroid.xaml</DependentUpon>
+    </Compile>
     <Compile Include="pages\postDetailPage.cs" />
     <Compile Include="pages\profilepage.cs" />
     <Compile Include="pages\RegisterUserPage.cs" />
@@ -71,6 +77,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="pages\CreatePostPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="pages\MainPageAndroid.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.1.4.3.6374\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.1.4.3.6374\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
