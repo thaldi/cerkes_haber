@@ -26,31 +26,3 @@ C:\Users\YSU\Desktop\ysu workspace\cerkes_haber\cerkes_haber\cerkes_haber.Droid\
 C:\Users\YSU\Desktop\ysu workspace\cerkes_haber\cerkes_haber\cerkes_haber.Droid\obj\Debug\uploadflags.txt
 C:\Users\YSU\Desktop\ysu workspace\cerkes_haber\cerkes_haber\cerkes_haber.Droid\obj\Debug\cerkes_haber.Droid.dll.mdb
 C:\Users\YSU\Desktop\ysu workspace\cerkes_haber\cerkes_haber\cerkes_haber.Droid\bin\Debug\cerkes_haber.Droid.dll.mdb
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\bin\Debug\cerkes_haber.Droid.dll
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\bin\Debug\cerkes_haber.Droid.pdb
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\bin\Debug\cerkes_haber.Droid.apk
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\bin\Debug\cerkes_haber.Droid-Signed.apk
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\bin\Debug\cerkes_haber.dll
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\bin\Debug\FormsViewGroup.dll
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\bin\Debug\Xamarin.Forms.Core.dll
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\bin\Debug\ImageCircle.Forms.Plugin.Abstractions.dll
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\bin\Debug\cerkes_haber.pdb
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\bin\Debug\Xamarin.Forms.Core.xml
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\bin\Debug\ImageCircle.Forms.Plugin.Abstractions.pdb
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\bin\Debug\ImageCircle.Forms.Plugin.Abstractions.xml
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\obj\Debug\cerkes_haber.Droid.csprojResolveAssemblyReference.cache
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\obj\Debug\cerkes_haber.Droid.dll
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\obj\Debug\cerkes_haber.Droid.pdb
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\obj\Debug\android\bin\cerkes_haber.Droid.apk
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\obj\Debug\res\drawable\icon.png
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\obj\Debug\res\drawable-hdpi\icon.png
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\obj\Debug\res\drawable-xhdpi\icon.png
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\obj\Debug\R.cs.flag
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\obj\Debug\uploadflags.txt
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\obj\Debug\cerkes_haber.Droid.dll.mdb
-C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber.Droid\bin\Debug\cerkes_haber.Droid.dll.mdb

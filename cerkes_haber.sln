@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cerkes_haber", "cerkes_haber\cerkes_haber\cerkes_haber.csproj", "{48D263D1-4C07-43F1-AF5F-5A56B270E164}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cerkes_haber.WinPhone", "cerkes_haber\cerkes_haber.WinPhone\cerkes_haber.WinPhone.csproj", "{11124187-3D82-40FB-B590-BB5156E6ED67}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "cerkesHaberDB", "cerkesHaberDB\cerkesHaberDB.sqlproj", "{26422BB0-098A-42FA-9585-7499CE7567DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cerkes_haber.Service(Api)", "cerkes_haber.Service(Api)\cerkes_haber.Service(Api).csproj", "{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -285,29 +287,48 @@ Global
 		{26422BB0-098A-42FA-9585-7499CE7567DF}.Release|x86.ActiveCfg = Release|Any CPU
 		{26422BB0-098A-42FA-9585-7499CE7567DF}.Release|x86.Build.0 = Release|Any CPU
 		{26422BB0-098A-42FA-9585-7499CE7567DF}.Release|x86.Deploy.0 = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Ad-Hoc|ARM.ActiveCfg = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Ad-Hoc|ARM.Build.0 = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Ad-Hoc|iPhoneSimulator.Build.0 = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Ad-Hoc|x86.ActiveCfg = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Ad-Hoc|x86.Build.0 = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.AppStore|ARM.ActiveCfg = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.AppStore|ARM.Build.0 = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.AppStore|iPhoneSimulator.Build.0 = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.AppStore|x86.ActiveCfg = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.AppStore|x86.Build.0 = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Debug|ARM.Build.0 = Debug|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Debug|x86.Build.0 = Debug|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Release|ARM.ActiveCfg = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Release|ARM.Build.0 = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Release|iPhone.Build.0 = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Release|x86.ActiveCfg = Release|Any CPU
+		{C7A17FC1-E5D7-49F8-AF75-E6CEE063A1B0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 6
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://yavuzselimulucan.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = cerkes_haber\\cerkes_haber.Droid\\cerkes_haber.Droid.csproj
-		SccProjectName1 = cerkes_haber/cerkes_haber.Droid
-		SccLocalPath1 = cerkes_haber\\cerkes_haber.Droid
-		SccProjectUniqueName2 = cerkes_haber\\cerkes_haber.iOS\\cerkes_haber.iOS.csproj
-		SccProjectName2 = cerkes_haber/cerkes_haber.iOS
-		SccLocalPath2 = cerkes_haber\\cerkes_haber.iOS
-		SccProjectUniqueName3 = cerkes_haber\\cerkes_haber.WinPhone\\cerkes_haber.WinPhone.csproj
-		SccProjectName3 = cerkes_haber/cerkes_haber.WinPhone
-		SccLocalPath3 = cerkes_haber\\cerkes_haber.WinPhone
-		SccProjectUniqueName4 = cerkes_haber\\cerkes_haber\\cerkes_haber.csproj
-		SccProjectName4 = cerkes_haber/cerkes_haber
-		SccLocalPath4 = cerkes_haber\\cerkes_haber
-		SccProjectUniqueName5 = cerkesHaberDB\\cerkesHaberDB.sqlproj
-		SccProjectName5 = cerkesHaberDB
-		SccLocalPath5 = cerkesHaberDB
 	EndGlobalSection
 EndGlobal

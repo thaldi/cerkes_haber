@@ -13,8 +13,8 @@ namespace cerkes_haber
         public App()
         {
             // The root page of your application
-            //MainPage = new mainpage();
-            MainPage = new MainPageAndroid();
+            MainPage = new mainpage();
+            //MainPage = new MainPageAndroid();
         }
 
         protected override void OnStart()
