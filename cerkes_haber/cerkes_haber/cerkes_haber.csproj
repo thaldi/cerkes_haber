@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="controls.cs" />
+    <Compile Include="helpers\ListHelper.cs" />
     <Compile Include="model\EventItem.cs" />
     <Compile Include="model\EventTemplate.cs" />
     <Compile Include="model\Users.cs" />

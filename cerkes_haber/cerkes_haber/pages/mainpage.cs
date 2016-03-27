@@ -14,7 +14,7 @@ namespace cerkes_haber.pages
         Entry passwordBox;
         Button loginBtn;
         Button registerBtn;
-
+        Button profilleBtn;
 
         public mainpage()
         {
@@ -82,9 +82,25 @@ namespace cerkes_haber.pages
                     ),
             };
 
-            registerBtn.Clicked += (o, e) =>
+            profilleBtn = new Button()
+            {
+                Text = "Profilim",
+                BackgroundColor = Color.FromHex("00BD55"),
+                BorderColor = Color.Transparent,
+                FontFamily = Device.OnPlatform(
+                    iOS: "MarkerFelt-Thin",
+                    Android: "Droid Sans Mono",
+                    WinPhone: "Comic Sans MS"),
+            };
+
+            profilleBtn.Clicked += (o, e) =>
             {
                 Navigation.PushModalAsync(new profilepage());
+            };
+
+            registerBtn.Clicked += (o, e) =>
+            {
+                Navigation.PushModalAsync(new RegisterUserPage());
                 //Navigation.PushModalAsync(new RegisterUserPage());
             };
 
@@ -120,7 +136,8 @@ namespace cerkes_haber.pages
                     )},
                     passwordBox,
                     loginBtn,
-                    registerBtn
+                    registerBtn,
+                    profilleBtn
                 }
             };
             baseLayout.Children.Add(baseContent);

@@ -16,6 +16,13 @@ namespace cerkes_haber.pages
 
         private void SetContent()
         {
+            Grid mainLayout = new Grid()
+            {
+                VerticalOptions = LayoutOptions.Fill,
+                HorizontalOptions = LayoutOptions.Fill,
+                BackgroundColor = Color.FromHex("#32352F")
+            };
+
             Grid baseGrid = new Grid()
             {
                 VerticalOptions = LayoutOptions.Fill,
@@ -23,7 +30,7 @@ namespace cerkes_haber.pages
                 BackgroundColor = Color.FromHex("6FCDDB")
             };
 
-            Button register = new Button()
+            Button registerBtn = new Button()
             {
                 Text = "Kayıt Ol",
                 BackgroundColor = Color.FromHex("00BD55"),
@@ -35,6 +42,10 @@ namespace cerkes_haber.pages
                     ),
             };
 
+            registerBtn.Clicked += (o, e) =>
+            {
+                //register user event
+            };
 
             StackLayout titleBox = new StackLayout()
             {
@@ -63,13 +74,13 @@ namespace cerkes_haber.pages
             Entry surname = new Entry() { Placeholder = "Soyisim" };
             Entry age = new Entry() { Placeholder = "Yaş" };
             Entry village = new Entry() { Placeholder = "Köy" };
-            Entry city = new Entry() { Placeholder = "Şehir" };
+            Picker city = new Picker() { Title = "Şehir" };
             Entry username = new Entry() { Placeholder = "Kullanıcı Adı" };
-            Entry userpass = new Entry() { Placeholder = "Parola",IsPassword=true };
-            Entry userpassagain = new Entry() { Placeholder = "Parola Tekrar",IsPassword=true };
+            Entry userpass = new Entry() { Placeholder = "Parola", IsPassword = true };
+            Entry userpassagain = new Entry() { Placeholder = "Parola Tekrar", IsPassword = true };
             Entry partofCircassian = new Entry() { Placeholder = "Çerkes Boyu(abhaz vs.)" };
             Entry phone = new Entry() { Placeholder = "Telefon" };
-            Entry contry = new Entry() { Placeholder = "Ülke" };
+            Picker contry = new Picker() { Title = "Ülke" };
             Entry mail = new Entry() { Placeholder = "Mail" };
 
 
@@ -91,14 +102,45 @@ namespace cerkes_haber.pages
                     username,
                     userpass,
                     userpassagain,
-                    register
+                    registerBtn
                 }
             };
 
+            StackLayout layout = new StackLayout()
+            {
+                Children =
+                {
+                   titleBox,
+                   baselayout
+                }
+            };
+
+
             baseGrid.Children.Add(baselayout);
 
-            scroll.Content = baseGrid;
-            Content = scroll;
+            scroll.Content = baselayout;
+
+            mainLayout.Children.Add(scroll);
+
+            Content = mainLayout;
+
+            SetLists(city, contry);
+            city.SelectedIndex = 0;
+            contry.SelectedIndex = 0;
+        }
+
+
+        private void SetLists(Picker city, Picker country)
+        {
+            for (int i = 0; i < helpers.ListHelper.SehirListesi.Count; i++)
+            {
+                city.Items.Add(helpers.ListHelper.SehirListesi[i]);
+            }
+
+            for (int i = 0; i < helpers.ListHelper.UlkeListesi.Count; i++)
+            {
+                country.Items.Add(helpers.ListHelper.UlkeListesi[i]);
+            }
         }
 
     }
