@@ -16,6 +16,8 @@ C:\Users\YSU\Desktop\ysu workspace\cerkes_haber\cerkes_haber\cerkes_haber\bin\De
 C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\cerkes_haber.dll
 C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\cerkes_haber.pdb
 C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\ImageCircle.Forms.Plugin.Abstractions.dll
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\SQLite-net.dll
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\SQLitePCL.raw.dll
 C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\Xamarin.Forms.Core.dll
 C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\Xamarin.Forms.Platform.dll
 C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\Xamarin.Forms.Xaml.dll
@@ -28,3 +30,5 @@ C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\obj\Debug\C
 C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\obj\Debug\MainPageAndroid.xaml.g.cs
 C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\obj\Debug\cerkes_haber.dll
 C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\obj\Debug\cerkes_haber.pdb
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\obj\Debug\cerkes_haber.dll.mdb
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber\cerkes_haber\bin\Debug\cerkes_haber.dll.mdb

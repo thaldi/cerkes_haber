@@ -40,5 +40,6 @@ C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber.Service(Api)\bin\Newtons
 C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber.Service(Api)\bin\System.Net.Http.Formatting.xml
 C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber.Service(Api)\bin\System.Web.Http.xml
 C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber.Service(Api)\bin\System.Web.Http.WebHost.xml
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber.Service(Api)\obj\Debug\cerkes_haber.Service(Api).csprojResolveAssemblyReference.cache
 C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber.Service(Api)\obj\Debug\cerkes_haber.Service(Api).dll
 C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkes_haber.Service(Api)\obj\Debug\cerkes_haber.Service(Api).pdb

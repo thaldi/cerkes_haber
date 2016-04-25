@@ -1,0 +1,5 @@
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkesHaberDB\bin\Debug\cerkesHaberDB.dacpac
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkesHaberDB\bin\Debug\cerkesHaberDB.dll
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkesHaberDB\bin\Debug\cerkesHaberDB.pdb
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkesHaberDB\obj\Debug\cerkesHaberDB.dll
+C:\Users\YSU\Documents\GitHub\cerkes_haber\cerkesHaberDB\obj\Debug\cerkesHaberDB.pdb
